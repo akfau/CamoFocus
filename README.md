@@ -88,7 +88,7 @@ Input Image (416 × 416)
 ## Qualitative Results
 
 <div align="center">
-  <img src="Examples/qualitative.png" width="90%" alt="Qualitative Results"/>
+  <img src="Examples/comparison_WACV.png" width="90%" alt="Qualitative Results"/>
   <p><em>Qualitative comparison of CamoFocus against recent SOTA methods on CAMO, COD10K, CHAMELEON, and NC4K. CamoFocus produces sharper, more complete predictions especially near object boundaries.</em></p>
 </div>
 
