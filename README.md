@@ -206,7 +206,7 @@ data/
 ├── TrainDataset/
 │   ├── Imgs/
 │   ├── GT/
-│   └── Edge/
+│  
 └── TestDataset/
     ├── CHAMELEON/
     ├── CAMO/
