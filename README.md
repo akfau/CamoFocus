@@ -36,7 +36,7 @@ Camouflage Object Detection (COD) involves isolating a target object that blends
 **CamoFocus** tackles this by drawing inspiration from Focal Modulation Networks. Rather than treating the scene as a uniform feature map, CamoFocus explicitly decouples foreground and background components and modulates them independently, forcing the model to learn the distinctive characteristics of each.
 
 <div align="center">
-  <img src="Examples/framework.jpg" width="85%" alt="CamoFocus Architecture"/>
+  <img src="Examples/Framework.jpg" width="85%" alt="CamoFocus Architecture"/>
   <p><em>Overall architecture of CamoFocus. The network uses a PVT-v2-B4 backbone, with the FSM and CRM modules driving feature refinement.</em></p>
 </div>
 
