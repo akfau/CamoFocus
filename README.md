@@ -50,9 +50,6 @@ The FSM module separates the input feature map into foreground and background st
 **2. Context Refinement Module (CRM)**
 The CRM serves as the top-down decoder. It aggregates the multi-scale features produced by FSM across all four pyramid levels using grouped dilated convolutions at progressively larger dilation rates (4, 6, 8). This enriches spatial context comprehensively and yields highly accurate, boundary-aware prediction maps.
 
-**3. Edge Attention Module (EAM)**
-The EAM generates a coarse foreground probability map from mid-level backbone features. This map acts as the supervisory signal for FSM and is also trained as an auxiliary output, providing an additional source of gradient supervision.
-
 ---
 
 ## Architecture
